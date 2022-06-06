@@ -280,7 +280,9 @@ a:hover {
     text-transform: uppercase;
     transition: 0.3s;
 }
-
+.card:hover {
+    filter: unset;
+}
 .card:hover > .card-wrapper::before {
     height: 250px;
     width: 350px;
